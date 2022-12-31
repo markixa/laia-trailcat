@@ -9,3 +9,5 @@ This is an app build with Spring boot and MySQL for the backend, and React for t
 * johndoe / doepass (Role: user)
 * admin / admin (Role: admin)
 * Users can be created on session
+
+### Remember to download npm packages before using -> $ npm i
