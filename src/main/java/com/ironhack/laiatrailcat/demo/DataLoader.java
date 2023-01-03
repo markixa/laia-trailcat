@@ -25,7 +25,7 @@ public class DataLoader {
     private final PasswordEncoder passwordEncoder;
 
     @EventListener(ApplicationReadyEvent.class)
-    public void storeData(){
+    public void loadDemoData(){
         log.info("Starting demo user loading...");
         User user1 = new User("johndoe", passwordEncoder.encode("doepass"), "ROLE_USER");
         userRepository.save(user1);
